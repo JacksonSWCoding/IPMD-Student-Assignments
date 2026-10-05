@@ -1,1 +1,53 @@
+# Week 6 — M. Robot Application
 
+## Overview
+
+M. is an interactive 3D robot demonstration that expresses four moods:
+Warm, Calm, Sad, and Dynamic.
+
+Each mood combines animations inside the robot’s globe, facial expressions,
+coordinated lighting, and background music. Users can rotate the robot,
+explore animation versions, and watch a guided showcase.
+
+This project demonstrates the robot’s light engine and visual behavior.
+It does not control physical robot hardware.
+
+## How to Use
+
+- **Choose a mood:** Select Warm, Calm, Sad, or Dynamic.
+- **Animation version:** Explore the available animations for each mood.
+- **Enable music:** Turn on the mood’s background music and adjust its volume.
+- **Rotate and zoom:** Drag the robot to rotate it; scroll to zoom.
+- **View controls:** Switch between front, side, and rear views.
+- **Auto rotate:** Watch the robot rotate slowly.
+- **Globe brightness:** Adjust the animation’s brightness.
+- **Pause / Replay:** Pause the light and music or restart the current feeling.
+- **Warm cycling:** Automatically alternate between Warm animation versions.
+- **Meet M. — guided showcase:** Watch a 40-second tour of all four moods.
+- **Presentation view:** Hide the sidebar for a larger robot view.
+  Press **Escape** to exit.
+- **Light / Dark studio:** Change the background setting.
+- **Reduce motion:** Disable the added character movement and guided camera motion.
+- **Save photo:** Save an image of the robot.
+
+## Week 6 Updates
+
+- Added presentation controls, studio backgrounds, and a guided showcase.
+- Added subtle movement, blinking, and pointer-responsive eyes.
+- Added visual and music transitions between moods.
+- Shortened the initial buildup for selected Calm, Sad, and Dynamic animations.
+- Slowed automatic rotation.
+- Updated the front logo to a clean **M**.
+- Corrected Warm playback at the start of the showcase.
+- Repaired the opening in the top of the robot’s head.
+
+## Troubleshooting
+
+- **The page cannot be reached:** Run `START_ROBOT.bat` again and use
+  the browser address it opens.
+- **No sound:** Click **Enable music** and check the volume.
+- **After restarting your computer:** Run `START_ROBOT.bat` again.
+- **To close the application:** Close the browser tab and command window.
+
+The local browser address works only on the computer running the application.
+Other users should download the ZIP and launch their own copy.
